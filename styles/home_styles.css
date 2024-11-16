@@ -1,0 +1,37 @@
+body {
+    letter-spacing: 0.015em !important;
+}
+
+/* Header Styles */
+/* Nav Styles */
+
+/* Main Styles */
+
+/* Carousel Styles */
+
+.carousel-image {
+    width: 100%;
+}
+
+/* Playlist Styles */
+
+
+
+/* Footer Styles */
+
+
+/* class styles */
+
+.custom-shadow {
+    box-shadow: 0em 0em 0.5em black;
+}
+
+@media screen and (max-width: 600px) {
+    .playlist-iframe {
+        height: 200px;
+    }
+    
+    .carousel-inner {
+        box-shadow: 0em 0em 0.5em black;
+    }
+}
