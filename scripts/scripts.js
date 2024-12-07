@@ -41,7 +41,7 @@ const member_list = [
         name: "BlockerLocker/Quentin",
         role: "AfterLife Member",
         bio: "I play Minecraft and make custom items, minigames, and mistakes.",
-        socials: ["https://www.youtube.com/BlockerLockerYT", "https://www.youtube.com/BlockerLockerYT"]
+        socials: ["https://www.youtube.com/BlockerLockerYT"]
     },
     {
         header: "https://yt3.googleusercontent.com/VYw3CNMNn4JRwQM_7VDqbkDCgxLan1PnQ7OYy5x8qvGoCNYgxgG2_RZdabirR_9UQudwcw-aEw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
@@ -80,7 +80,7 @@ const member_list = [
         pfp: "https://yt3.googleusercontent.com/ZDkHbiieXrlmhcg47A3XgqZzT16raIMQVZGIytmoyXS6Tl2TSY9ythOQddq1yxaU_DTJY7CNVw=s160-c-k-c0x00ffffff-no-rj",
         name: "KingZee",
         role: "AfterLife Member",
-        bio: "",
+        bio: "Minecrafter, YouTuber, and most importantly Dad to 4 little humans! :D",
         socials: ["https://www.youtube.com/@KingZee","https://twitter.afterlifesmp.com","https://instagram.afterlifesmp.com","https://www.twitch.tv/kingzee"]
     },
     {
@@ -150,7 +150,7 @@ $(document).ready(function () {
         $(col_div).addClass("col mb-3");
 
         var card_div = document.createElement('div');
-        $(card_div).addClass("card");
+        $(card_div).addClass("card h-100");
 
         var head_div = document.createElement('div');
         var head_img = '<img src= "' + member_list[i].header + '" alt="Cover" class="card-img-top">';
@@ -167,33 +167,33 @@ $(document).ready(function () {
 
         // Create The Footer
         var footer_div = document.createElement('div')
-        $(footer_div).addClass("row container card-footer text-center m-auto")
+        $(footer_div).addClass("container card-footer text-center m-auto d-flex flex-row justify-content-center")
 
         for (var j = 0; j < member_list[i].socials.length; j++) {
             if (member_list[i].socials[j].includes("youtube")) {
                 var social_div = document.createElement('div');
-                $(social_div).addClass("col")
+                $(social_div).addClass("mx-1")
                 var current_social = '<a class="bio-youtube p-1" href= ' + member_list[i].socials[j] + ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#youtube" /> </svg></a>'
 
                 social_div.innerHTML = current_social;
                 footer_div.append(social_div)
             } else if (member_list[i].socials[j].includes(".x.")) {
                 var social_div = document.createElement('div');
-                $(social_div).addClass("col")
+                $(social_div).addClass("mx-1")
                 var current_social = '<a class="p-1" href= ' + member_list[i].socials[j] + ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitter" /> </svg></a>'
 
                 social_div.innerHTML = current_social;
                 footer_div.append(social_div)
             } else if (member_list[i].socials[j].includes("instagram")) {
                 var social_div = document.createElement('div');
-                $(social_div).addClass("col")
+                $(social_div).addClass("mx-1")
                 var current_social = '<a class="bio-instagram p-1" href= ' + member_list[i].socials[j] + ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#instagram" /> </svg></a>'
 
                 social_div.innerHTML = current_social;
                 footer_div.append(social_div)
             } else if (member_list[i].socials[j].includes("twitch")) {
                 var social_div = document.createElement('div');
-                $(social_div).addClass("col")
+                $(social_div).addClass("mx-1")
                 var current_social = '<a class="bio-twitch p-1" href= ' + member_list[i].socials[j] + ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitch" /> </svg></a>'
 
                 social_div.innerHTML = current_social;
