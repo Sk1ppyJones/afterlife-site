@@ -51,23 +51,83 @@
             <path
                 d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
         </symbol>
+        <symbol id="list" viewBox="0 0 16 16">
+            <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </symbol>
     </svg>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <div class="container-fluid border-bottom border-primary">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="index.html" class="mx-4">
-                    <img src="img/AfterLife_Logo_Bot_w_SMP.png" class="logo" style="width: 200px;" alt="">
+    <div class="container-fluid border-bottom border-primary p-0 pe-1">
+        <header class="d-flex flex-wrap align-items-center justify-content-between ps-sm-0">
+            <div class="col-sm-1 col-md-2">
+                <a href="index.html" class="mx-4 ">
+                    <img src="img/AfterLife_Logo_Bot_w_SMP.png" class="logo header-logo" alt="">
                 </a>
             </div>
-            <ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-3 p-2">
-                <li><a href="index.html" class="nav-link px-3 link-secondary active">Home</a></li>
-                <li><a href="about.html" class="nav-link px-3">Members</a></li>
-                <li><a href="apply.html" class="nav-link px-3">Apply</a></li>
-                <li><a href="history.html" class="nav-link px-3">History</a></li>
-            </ul>
+            <div class="d-none d-md-block col-md-6">
+                <ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-3 p-2">
+                    <li><a href="index.html" class="nav-link px-3 link-secondary active">Home</a></li>
+                    <li><a href="about.html" class="nav-link px-3">Members</a></li>
+                    <li><a href="apply.html" class="nav-link px-3">Apply</a></li>
+                    <li><a href="https://shop.afterlifesmp.com/" target="_blank" class="nav-link px-3">Merch</a></li>
+                </ul>
+            </div>
+            <div class="socials d-none d-md-block me-2">
+                <div class="row card-footer text-center container m-auto px-2">
+                    <a class="nav-link p-1 col px-2" href="https://www.youtube.com/user/AfterLifeSMP" target="_blank"><svg
+                            class="bi" width="24" height="24">
+                            <use xlink:href="#youtube" />
+                        </svg></a>
+                    <a class="nav-link p-1 col px-2" href="https://www.x.com/AfterLifeSMP" target="_blank"><svg class="bi" width="24"
+                            height="24">
+                            <use xlink:href="#twitter" />
+                        </svg></a>
+                    <a class="nav-link p-1 col px-2" href="https://instagram.com/AfterLifeSMP" target="_blank"><svg
+                            class="bi" width="24 " height="24">
+                            <use xlink:href="#instagram" />
+                        </svg></a>
+                    <a class="nav-link p-1 col px-2" href="https://www.discord.gg/afterlifesmp" target="_blank"><svg
+                            class="bi" width="24" height="24">
+                            <use xlink:href="#discord" />
+                        </svg></a>
+                </div>
+            </div>
+            <!--Mobile Nav-->
+            <nav class="navbar navbar-expand-sm d-md-none d-lg-none ">
+                <button class="navbar-toggler ms-auto d-md-none d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="collapse navbar-collapse d-md-none d-lg-none text-center" id="n_bar">
+                <ul class="nav nav-bar row">
+                    <li><a href="index.html" class="nav-link link-secondary active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">Members</a></li>
+                    <li><a href="apply.html" class="nav-link">Apply</a></li>
+                    <li><a href="https://shop.afterlifesmp.com/" target="_blank" class="nav-link">Merch</a></li>
+                </ul>
+                <div class="socials">
+                    <div class=" d-flex flex-row text-center justify-content-center container m-auto px-2">
+                        <a class="nav-link p-2" href="https://www.youtube.com/user/AfterLifeSMP" target="_blank"><svg
+                                class="bi" width="24" height="24">
+                                <use xlink:href="#youtube" />
+                            </svg></a>
+                        <a class="nav-link p-2" href="https://www.x.com/AfterLifeSMP" target="_blank"><svg class="bi" width="24"
+                                height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a>
+                        <a class="nav-link p-2" href="https://instagram.com/AfterLifeSMP" target="_blank"><svg
+                                class="bi" width="24 " height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a>
+                        <a class="nav-link p-2" href="https://www.discord.gg/afterlifesmp" target="_blank"><svg
+                                class="bi" width="24" height="24">
+                                <use xlink:href="#discord" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
         </header>
     </div>
     <main>

@@ -10,6 +10,9 @@ body {
     width: 100%;
 }
 
+.header-logo {
+    width: 200px;
+}
 
 .tw-tl {
     width: 100%;
@@ -23,14 +26,28 @@ body {
     color: #00b7ff;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
 @media screen and (max-width: 600px) {
     .playlist-iframe {
         height: 200px;
     }
-    .bi-cloud-download{
+
+    .bi-cloud-download {
         display: none;
     }
+
     .carousel-inner {
         box-shadow: 0em 0em 0.5em black;
+    }
+
+    .header-logo {
+        width: 125px;
     }
 }
