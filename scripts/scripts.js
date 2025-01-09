@@ -11,15 +11,15 @@
 
 
 const member_list = [
-    {
-        header: "https://yt3.googleusercontent.com/EYhpaxjrgwLo5bwWq80LifICs_MYs5rF8Lm4JdVLK8SrpoeDGH5Axzmaw4Hcj1S0zSkdCOHiiw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-        pfp: "https://yt3.googleusercontent.com/ytc/AIdro_l51fmGH0eM0YYG0ltkmBUhdNhYaU0rfbifYEYngjw8oFM=s160-c-k-c0x00ffffff-no-rj",
+    { //Jay
+        header: "img/member_card_img/alloutjay_banner.jpg",
+        pfp: "img/member_card_img/alloutjay_pfp.jpg",
         name: "AlloutJay",
         role: "SupremeLeader",
         bio: "Hey there! I'm AllOutJay, but you can call me Jay. I am a Minecraft Content Creator who primarily makes Minecraft Survival Lets Play content.",
         socials: ["https://www.youtube.com/@AllOutJay", "https://www.x.com/AllOutJay", "https://instagram.com/alloutjay", "https://twitch.tv/alloutjay"]
     },
-    {
+    { //Skunk
         header: "https://yt3.googleusercontent.com/_qlNup8NZeegH9qR08pUztAmuQks3tCDEwkR4hpJ2_Hn5mxDF8YJbSbe9clyyRhrKZjigi5l=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/JTQb7xKFRPLFXvytzxpbSlk22aDJvaSeD_iwid8_8jz-M6_5vTaHH6FlN04iM6-PRjXW4z9m=s160-c-k-c0x00ffffff-no-rj",
         name: "BlondSkunk",
@@ -27,7 +27,7 @@ const member_list = [
         bio: "Welcome to the Blondskunk YouTube channel! On this channel, I make videos mostly around the topic of building in Minecraft.",
         socials: ["https://www.youtube.com/c/blondskunk", "https://www.instagram.com/blondskunk/", "https://www.twitch.tv/blondskunk"]
     },
-    {
+    { //Ash
         header: "https://yt3.googleusercontent.com/bhui7stbZp7H4SgWzMZPbYt1l-8qVK4aETkTukndaGpsVOwfGVcYXZy6VP1NrfGZkWazKEnB=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/wDRjqeNZEcMGPBBctWeYWSrmO0TDB9Rl9z3i5uZruaDquZTajSZ4cksa1kclxpo4KuERHJtUFQ=s160-c-k-c0x00ffffff-no-rj",
         name: "Ash's Den",
@@ -35,7 +35,7 @@ const member_list = [
         bio: "I aim to tell immersive and fun stories in this wonderful game called Minecraft",
         socials: ["https://www.youtube.com/channel/UCTd1a_UZrBjf88GXdPnNtKg", "https://www.instagram.com/ashsden/", "https://www.twitch.tv/ashsden"]
     },
-    {
+    { //Quentin
         header: "https://yt3.googleusercontent.com/uD2KQJg-cQCkcdmL500wxa8lf2SZOPV7BMTU3M8TlHXvFiCcjqxOTgOUofE2bdQK2H3Ba_0n6A=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/dQjIezu3YnJXwppnNyu5fJ831HUzG7HhrF23Fe96ulzLzPqnXVdMi8gIhLPkbg5Mz0e03nx3=s160-c-k-c0x00ffffff-no-rj",
         name: "BlockerLocker/Quentin",
@@ -43,7 +43,7 @@ const member_list = [
         bio: "I play Minecraft and make custom items, minigames, and mistakes.",
         socials: ["https://www.youtube.com/BlockerLockerYT"]
     },
-    {
+    { //Fungusaurus Rex
         header: "https://yt3.googleusercontent.com/VYw3CNMNn4JRwQM_7VDqbkDCgxLan1PnQ7OYy5x8qvGoCNYgxgG2_RZdabirR_9UQudwcw-aEw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/6iQeshGnVfzT9VCFtwCrd9bImqc_BSncNQg_UnO0k0rC4Dan-KtpMPKiPSKfwfpkeLaNVhinzxY=s160-c-k-c0x00ffffff-no-rj",
         name: "Fungusaurus Rex",
@@ -51,7 +51,7 @@ const member_list = [
         bio: "Ready for some awesome Minecraft Builds and adventures? If so then you have come to the right place.",
         socials: ["https://www.youtube.com/@fungusaurus_rex","https://instagram.com/fungusaurus_rex"]
     },
-    {
+    { //GP
         header: "https://yt3.googleusercontent.com/0IpvKpIkdISb-pzl6dsVFqY9SzNudr3jaye2c0YFNDTAQrKtyS1arQoWSA4YHbZ5KdwvDdd733g=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/rXfePtcJppJYHSLwlojTFLe6X9KVFKTHbxdG62k3xgnoyUs82xCe1gSSyIJv6DDWNAW1d5TNCw=s160-c-k-c0x00ffffff-no-rj",
         name: "ImGP",
@@ -59,7 +59,7 @@ const member_list = [
         bio: "I play Minecraft. I make videos while doing it.",
         socials: ["https://www.youtube.com/@Im_GP/featured","https://x.com/imgp_yt","https://www.instagram.com/imgp_yt/"]
     },
-    {
+    { //JustinL
         header: "https://yt3.googleusercontent.com/_gVLMnSNVScw_Zbzif7v04M-wxZQe729bF1g7eFcZq0B0vhZ4zyjZGXNIprzHo2_Yv6eCue-hQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
         pfp: "https://yt3.googleusercontent.com/ytc/AIdro_mSx_TILnUyuHr9Ba4QjYB_bxsOU7zGuhUmFzyEjuQ3CQ=s160-c-k-c0x00ffffff-no-rj",
         name: "JustinL",
@@ -67,9 +67,9 @@ const member_list = [
         bio: "Welcome! I'm JustinL and I do gaming commentaries. Play a ton of Minecraft! and other games on rare occasions.",
         socials: ["https://www.youtube.com/@JustinLYT","https://www.twitter.com/JustinRL94","https://twitch.tv/justinl94"]
     },
-    {
-        header: "https://yt3.googleusercontent.com/1Hcsm-qzYuYU3vCiUkKn0yYet1zE_5JEKaLKwfIdsSJqBN2vuuOpnhaJm9O0OBw0UwaLiLODvA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-        pfp: "https://yt3.googleusercontent.com/HTqPGCVU9WQW6AXn7Qct1cnbIADKf-EXhYq8CAJb2HbchbVIjB4GXD_vDRAwgc2lO7RtLdWsmj8=s160-c-k-c0x00ffffff-no-rj",
+    { //KB
+        header: "img/member_card_img/kb_banner.jpg",
+        pfp: "img/member_card_img/kb_pfp.jpg",
         name: "KB's Sandbox",
         role: "AfterLife Member",
         bio: "Welcome to KB's Sandbox, where I play Minecraft in all it's variations!",
@@ -116,24 +116,24 @@ const member_list = [
         socials: ["https://www.youtube.com/@tinkfro"]
     },
     {
-        header: "https://yt3.googleusercontent.com/nr3JVPO8elD_gM3di07RzRPAIfJScEI6MNcLkA8-Xy34B4HubDnQSUmH4c79SjxIbeD8R9Q2byg=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-        pfp: "https://yt3.googleusercontent.com/qpJXJYwHfVxpV0SRTFUqnNNgA9ffrWjPpBwidtPzmT-vBNCKdHrp1ybYnU4IvMpqq-jya3gcKAs=s160-c-k-c0x00ffffff-no-rj",
+        header: "img/member_card_img/Uni_banner.jpg",
+        pfp: "img/member_card_img/uni_pfp.jpg",
         name: "Uni",
         role: "AfterLife Member",
         bio: "Timelapses, Let's Plays, Streams, and Rube Goldberg Machines! That and much on here on Uni's Minecraft Channel",
         socials: ["https://www.youtube.com/@Uni_"]
     },
     {
-        header: "https://yt3.googleusercontent.com/2SPjEzm0BP1ETDgDdo5Ij6aVExC4IAoeKo7i37rqXVq1k0UQXs9GvdUehj1fSNFTC478zQ9mqg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-        pfp: "https://yt3.googleusercontent.com/ytc/AIdro_ncfMFIidRCAgGU2krCtQyq9ht7OMf5XMavvYVu2XYOzw=s160-c-k-c0x00ffffff-no-rj",
+        header: "img/member_card_img/white_banner.jpg",
+        pfp: "img/member_card_img/white_pfp.jpg",
         name: "WhiteFyr",
         role: "Fyr Lord",
         bio: "Minecraft YouTuber with a focus on survival. Here you'll find a lot of vanilla Minecraft, including my hardcore amplified singleplayer series known as Survival Heights!",
         socials: ["https://www.youtube.com/@WhiteFyr","https://www.x.com/WhiteFyr_","https://instagram.com/whitefyr","https://twitch.tv/WhiteFyr"]
     },
     {
-        header: "https://yt3.googleusercontent.com/1j5FRI7QjJ7cfBDWSylYlOO3u7Xen1qz2ft1FtPIPDqQl4VxpbNQAejLkLtmUCES5d5LS9QtBQ=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-        pfp: "https://yt3.googleusercontent.com/AltV9j6t2kt_sqh-0uGj_RlIu52a-ALjAt2IchLJt9X4bFc8X4F3kqFGWG2nk4All_GDeXvz3cM=s160-c-k-c0x00ffffff-no-rj",
+        header: "img/member_card_img/vypr_banner.jpg",
+        pfp: "img/member_card_img/vypr_pfp.jpg",
         name: "ztVypr",
         role: "AfterLife Member",
         bio: "Working hard to survive in Hardcore Minecraft (and having fun along the way)!",
